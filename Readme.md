@@ -14,12 +14,12 @@
 
 ### 1. Установка из NuGet (глобально)
 
-1. Скачайте пакет `Dto2Proto` в **NuGet**.  
+1. Скачайте пакет `DtoToProto` в **NuGet**.  
 2. Установите инструмент глобально:
 
 Команда будет доступна через:
 ```bash
-dotnet tool install --global Dto2Proto --version 1.0
+dotnet tool install --global DtoToProto --version 1.0.1
 ```
 
 ### 2. Установка локально
@@ -27,7 +27,7 @@ dotnet tool install --global Dto2Proto --version 1.0
 ```bash
 cd MySolutionFolder
 dotnet new tool-manifest
-dotnet tool install Dto2Proto --version 1.0
+dotnet tool install DtoToProto --version 1.0.1
 ```
 
 Команда будет доступна через:
@@ -70,7 +70,6 @@ dotnet tool run dto2proto -- \
     "double": "double",
     "bool": "bool",
     "string": "string",
-    // Списки/массивы
     "List`1": "repeated",
     "IEnumerable`1": "repeated",
     "IList`1": "repeated",

@@ -7,9 +7,9 @@
     <PackAsTool>true</PackAsTool>
     
     <ToolCommandName>dto2proto</ToolCommandName>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <PackageId>DtoToProto</PackageId>
-    <Authors>Dreadew</Authors>
+    <Authors>dreadew</Authors>
     <Description>Converts C# DTO files to Protobuf files</Description>
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <RepositoryUrl>https://github.com/dreadew/DtoToProto</RepositoryUrl>
